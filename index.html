@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Pay Calculator</title>
+
+</head>
+
+<body>
+    <div class="background_image">
+        <div class="calculator">
+            <div class="logo">
+                <img src="logo.JPG" alt="">
+            </div>
+
+            <h1> NET PAY CALCULATOR</h1>
+            <P>Enter the Basic salary and Total Benefits to calculate your Net Pay </P>
+            <div class="form">
+                <form action="" id="form">
+                    <label for="basic">Basic salary</label>
+                    <input id="basic" placeholder="100000" type="number">
+                    <label for="benefits">Benefits</label>
+                    <input type="number" placeholder="100000" id="benefits">
+                    <input type="submit" id="calc">
+                </form>
+            </div>
+            <div class="ft">
+                <div class="form_table">
+                    <div class="table">
+                        <table>
+                            <tr>
+                                <th>Description</th>
+
+                                <td>Results</td>
+                            </tr>
+                            <tr>
+                                <th>Gross Salary</th>
+
+                                <td id="gross_salary"></td>
+                            </tr>
+                            <tr>
+                                <th>NHIF</th>
+
+                                <td id="nhif"></td>
+                            </tr>
+                            <tr>
+                                <th>NSSF</th>
+                            
+                                <td id="nssf"></td>
+                            </tr>
+                            <tr>
+                                <th>NHDF</th>
+
+                                <td id="nhdf"></td>
+                            </tr>
+                            <tr>
+                                <th>Taxable Income</th>
+
+                                <td id="taxable_income"></td>
+                            </tr>
+                            <tr>
+                                <th>Payee</th>
+
+                                <td id="payee"></td>
+                            </tr>
+                            <tr>
+                                <th>Net Pay</th>
+                                <td id="Net Pay"></td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+h1{
+    color: blueviolet;
+    line-height: 0px;
+}
+table{
+    width: 550px;
+}
+th {
+    text-align: left;
+}
+td{
+    text-align: right;
+}
+table,th,td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+.background_image{
+    position: relative;
+    width: 1500px;
+    height: 720px;
+    
+
+    background-image: url(pay.jpg);
+    background-size: cover;
+}
+.calculator{
+    
+    position: absolute;
+    background-color: white;
+    width: 570px;
+    height: 370px;
+    top: 100px;
+    left: 520px;
+}
+.ft{
+    position: relative;
+
+}
+.form{
+    position: relative;
+    left: 10px;
+    width: 550px;
+    height: 40px;
+    background-color:whitesmoke;
+    display: inline-block;
+}
+.form_table{
+    position:absolute;
+    left: 10px;
+    width: 520px;
+    height: 200px;
+   
+}
+p{
+    font-size: x-small;
+}
